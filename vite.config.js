@@ -14,6 +14,9 @@ export default defineConfig({
         "./ProductApp": "./src/productApp/ProductApp",
       },
       shared: ["react"],
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
     }),
   ],
   preview: {
